@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parallax, Typing</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-
 <body>
+    
+
+   <header class="header">
+    <div class="container">
+        <nav class="header-nav">
+            <a href="#!" class="header-logo">Logo</a>
+            <ul class="header-list">
+                <li class="header-item">
+                    <a href="#!" class="header-link">Home</a>
+                </li>
+                <li class="header-item">
+                    <a href="#!" class="header-link">Home</a>
+                </li>
+                <li class="header-item">
+                    <a href="#!" class="header-link">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <img src="./img/fantasy.png" alt="" class="header-banner">
+    <img src="./img/cloud1.png" alt="" class="header-cloud  cloud1" data-speed="0.3">
+    <img src="./img/cloud2.png" alt="" class="header-cloud  cloud2" data-speed="0.2">
+    <img src="./img/cloud3.png" alt="" class="header-cloud  cloud3" data-speed="0.1">
+    <img src="./img/boat.png" alt="" class="header-boat" data-speed="0.5">
+  
 
 
-    <header class="header">
-        <div class="container">
-            <nav class="header-nav">
-                <a href="#!" class="header-logo">Logo</a>
-                <ul class="header-list">
-                    <li class="header-item">
-                        <a href="#!" class="header-link">Home</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#!" class="header-link">Home</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#!" class="header-link">Home</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#!" class="header-link">Home</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <div class="header-content">
+        <h1 class="header-title">IT LIVE ACADEMY</h1>
+    </div>
 
-        <img src="./img/fantasy.png" alt="" class="header-banner">
-        <img src="./img/cloud1.png" alt="" class="header-cloud cloud1" data-speed="0.3">
-        <img src="./img/cloud2.png" alt="" class="header-cloud cloud2" data-speed="0.2">
-        <img src="./img/cloud3.png" alt="" class="header-cloud cloud3" data-speed="-0.1">
-        <img src="./img/boat.png" alt="" class="header-boat" data-speed="0.5">
+</header>
 
-        <div class="header-content">
-            <h1 class="header-title">IT LIVE ACADEMY</h1>
-        </div>
-    </header>
+    <main>
+        <section class="parallax">
+            <h2 class="parallax-title">Parallax</h2>
+            <div class="parallax-box">
+                <img src="./parallax/Parallax_3.png" alt="" class="parallax-banner">
+                <img src="./parallax/Parallax_4.png" alt="" class="parallax-ball layer1" data-speed="0.3">
+                <img src="./parallax/Parallax_5.png" alt="" class="parallax-ball layer2" data-speed="0.4">
+            </div>
+        </section>
+
+        <section class="timer">
+            <div class="container">
+               <div class="timer-cards">
+                <div class="timer-card">
+                    <h4 class="timer-num" data-num="500">500</h4>
+                    <p class="timer-text">Lorem, ipsum dolor.</p>
+                    <a href="#!" class="timer-btn">Button</a>
+                </div>
+                <div class="timer-card">
+                    <h4 class="timer-num" data-num="600">600</h4>
+                    <p class="timer-text">Lorem, ipsum dolor.</p>
+                    <a href="#!" class="timer-btn">Button</a>
+                </div>
+                <div class="timer-card">
+                    <h4 class="timer-num" data-num="700">700</h4>
+                    <p class="timer-text">Lorem, ipsum dolor.</p>
+                    <a href="#!" class="timer-btn">Button</a>
+                </div>
+                <div class="timer-card">
+                    <h4 class="timer-num" data-num="300">300</h4>
+                    <p class="timer-text">Lorem, ipsum dolor.</p>
+                    <a href="#!" class="timer-btn">Button</a>
+                </div>
+               </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
 
     <script src="./js/main.js"></script>
-</body>
 
+</body>
 </html>

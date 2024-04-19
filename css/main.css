@@ -12,19 +12,18 @@ ul {
     list-style: none;
 }
 
+body {
+    height: 2000px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
     margin: auto;
 }
 
-body {
-    height: 2000px;
-}
-
-.header {
-    overflow: hidden;
-}
 
 .header-nav {
     display: flex;
@@ -32,7 +31,6 @@ body {
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
-
 }
 
 .header-logo {
@@ -95,4 +93,77 @@ body {
     font-size: 100px;
     text-shadow: 0 0 4px black;
     color: #fff;
+}
+
+/* Parallax section */
+.parallax {
+    width: 100%;
+}
+
+.parallax-title {
+    padding: 20px 0;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+}
+
+.parallax-box {
+    width: 100%;
+    height: 600px;
+}
+
+.parallax-banner {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+
+.parallax-ball {
+    position: absolute;
+}
+
+.layer1 {
+    left: 20%;
+}
+
+.layer2 {
+    right: 10%;
+}
+
+.timer {
+    /* margin-top: 200px; */
+    background-color: green;
+    padding: 50px 0;
+}
+
+.timer-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-card {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.timer-num {
+    color: white;
+    font-size: 40px;
+}
+
+.timer-text {
+    color: white;
+    font-size: 20px;
+}
+
+.timer-btn {
+    background-color: white;
+    padding: 10px;
 }
